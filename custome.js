@@ -12,7 +12,6 @@
         
         const userClicked = event.target.id;
         const randNum = Math.ceil(Math.random() * 3);
-        console.log(randNum)
         if(randNum === 1 && userClicked !== "rock"){
             if(userClicked === "paper"){
                 userScore += 1;
